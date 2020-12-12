@@ -60,7 +60,7 @@ Pertama adalah dengan membuat pembagian jaringan seperti pada gambar berikut:
 Untuk pembagian IP menggunakan tree adalah sebagai berikut  
 ![2.b](jawaban/treecidr.jpg)  
 
-Berikutnya adalah membuat file 'topo.sh' yang berisi  
+Berikutnya adalah membuat file ```topo.sh``` yang berisi  
 
 ```
 # Switch
@@ -109,3 +109,29 @@ xterm -T NGANJUK -e linux ubd0=NGANJUK,jarkom umid=NGANJUK eth0=daemon,,,switch2
 xterm -T LUMAJANG -e linux ubd0=LUMAJANG,jarkom umid=LUMAJANG eth0=daemon,,,switch17 mem=64M &
 xterm -T TULUNGAGUNG -e linux ubd0=TULUNGAGUNG,jarkom umid=TULUNGAGUNG eth0=daemon,,,switch20 mem=64M &
 ``` 
+Dan juga membuat ```bye.sh``` yang berisi  
+```
+uml_mconsole SURABAYA halt
+uml_mconsole PASURUAN halt 
+uml_mconsole PROBOLINGGO halt
+uml_mconsole BATU halt
+uml_mconsole MADIUN halt
+uml_mconsole KEDIRI halt
+uml_mconsole BLITAR halt
+uml_mconsole MALANG halt
+uml_mconsole MOJOKERTO halt
+uml_mconsole SAMPANG halt 
+uml_mconsole SIDOARJO halt
+uml_mconsole BANYUWANGI halt
+uml_mconsole JEMBER halt
+uml_mconsole BONDOWOSO halt
+uml_mconsole JOMBANG halt 
+uml_mconsole BOJONEGORO halt 
+uml_mconsole NGANJUK halt 
+uml_mconsole LUMAJANG halt 
+uml_mconsole TULUNGAGUNG halt 
+```
+untuk mengakhiri pengunaan UML nantinya.  
+
+---
+Kendala yang dialami: -
