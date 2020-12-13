@@ -434,6 +434,6 @@ netmask 255.255.252.0
 gateway 192.168.1.1
 ```  
 ---
-Kendala yang dialami: 
+Kendala yang dialami:  
 ![k1](jawaban/kendala.JPG)  
 ![k2](jawaban/kendala2.JPG)  
