@@ -471,7 +471,12 @@ Pada Kediri terdapat 1 routing
 ip route add 192.168.1.0/22 via 192.168.0.2 
 ```  
 Routing2 yang sudah dibuat dalam ``` rut.sh``` tadi, dapat dijalankan dengan ``` bash rut.sh``` yang nantinya ketika mengetikan ``` ip route show```, maka akan muncul route-route yang sudah dibuat.  
+![rut1](jawaban/rutbatu.JPG)  
+![rut2](jawaban/rutkediri.JPG)  
+![rut1](jawaban/rutpasuruan.JPG)  
+![rut1](jawaban/rutsurabaya.JPG)  
 
+Selanjutnay adalah dengan mengetes ping pada UML yang ada.  
 Berikut beberapa contoh ping:  
 ![p1](jawaban/ping1.JPG)  
 ![p2](jawaban/ping2.JPG)  
