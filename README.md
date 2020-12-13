@@ -433,7 +433,54 @@ address 192.168.1.2
 netmask 255.255.252.0
 gateway 192.168.1.1
 ```  
+
+Berikutnya, melakukan ```nano rut.sh``` pada beberapa router yang berisi ``` ip add route``` yang dapat dijalankan setiap uml mengalami restart. dimana terdiri menjadi:  
+
+Pada Surabaya terdapat 12 ip route yang terdiri dari  
+```
+ip route add 192.168.136.0/25 via 192.168.192.2 
+ip route add 192.168.128.0/21 via 192.168.192.2 
+ip route add 192.168.144.0/30 via 192.168.192.2 
+ip route add 192.168.160.0/22 via 192.168.192.2 
+
+ip route add 10.151.71.52/30 via 10.151.71.54  
+
+ip route add 192.168.16.0/28 via 192.168.32.2  
+ip route add 192.168.16.0/23 via 192.168.32.2  
+ip route add 192.168.20.0/22 via 192.168.32.2  
+ip route add 192.168.8.0/30 via 192.168.32.2  
+ip route add 192.168.0.0/24 via 192.168.32.2  
+ip route add 192.168.0.0/22 via 192.168.32.2  
+
+ip route add 10.151.71.48/30 via 192.168.32.2  
+```  
+Pada Pasuruan terdapat 2 routing  
+```
+ip route add 192.168.136.0/25 via 192.168.144.2  
+ip route add 192.168.128.0/21 via 192.168.144.2  
+```  
+Pada Batu terdapat 4 routing  
+```
+ip route add 192.168.16.0/28 via 192.168.16.18  
+ip route add 10.151.71.48/30 via 192.168.8.2  
+ip route add 192.168.0.0/24 via 192.168.8.2  
+ip route add 192.168.1.0/24 via 192.168.8.2  
+```  
+Pada Kediri terdapat 1 routing
+```
+ip route add 192.168.1.0/22 via 192.168.0.2 
+```  
+Routing2 yang sudah dibuat dalam ``` rut.sh``` tadi, dapat dijalankan dengan ``` bash rut.sh``` yang nantinya ketika mengetikan ``` ip route show```, maka akan muncul route-route yang sudah dibuat.  
+
+Berikut beberapa contoh ping:  
+![p1](jawaban/ping1.JPG)  
+![p2](jawaban/ping2.JPG)  
+![p3](jawaban/ping3.JPG)  
+
 ---
+
 Kendala yang dialami:  
+Kendala yang sempat terjadi namun sudah tuntas  
 ![k1](jawaban/kendala.JPG)  
 ![k2](jawaban/kendala2.JPG)  
+![k3](jawaban/kendala3.JPG)  
