@@ -133,5 +133,307 @@ uml_mconsole TULUNGAGUNG halt
 ```
 untuk mengakhiri pengunaan UML nantinya.  
 
+Setelah melakukan ``` bash topo.sh``` maka akan tampil sebanyak 19 UML dimana pada  setiap UMLnya diberikan setting yang berbeda-beda  
+pada ```nano /etc/network/interfaces``` Surabaya  
+
+```
+auto lo  
+iface lo inet loopback  
+
+auto eth0   
+iface eth0 inet static  
+address 10.151.70.26  
+netmask 255.255.255.252  
+gateway 10.151.70.25  
+
+auto eth1  
+iface eth1 inet static  
+address 10.151.71.53  
+netmask 255.255.252.252  
+
+auto eth2  
+iface eth2 inet static  
+address 192.168.64.1  
+netmask 255.255.252.0  
+
+auto eth3  
+iface eth3 inet static  
+address 192.168.32.1  
+netmask 255.255.255.252  
+
+auto eth4  
+iface eth4 inet static  
+address 192.168.192.1  
+netmask 255.255.255.252  
+```  
+pada ```nano /etc/network/interfaces``` Pasuruan  
+```
+auto lo  
+iface lo inet loopback  
+
+auto eth0  
+iface eth0 inet static  
+address 192.168.192.2  
+netmask 255.255.255.252  
+gateway 192.168.192.1  
+
+auto eth1  
+iface eth1 inet static  
+address 192.168.144.1  
+netmask 255.255.255.252  
+
+auto eth2  
+iface eth2 inet static  
+address 192.168.160.1  
+netmask 255.255.252.0  
+```  
+pada ```nano /etc/network/interfaces``` Probolinggo  
+```
+auto lo  
+iface lo inet loopback  
+
+auto eth0  
+iface eth0 inet static  
+address 192.168.144.2  
+netmask 255.255.255.252  
+gateway 192.168.144.1  
+
+auto eth1  
+iface eth1 inet static  
+address 192.168.136.1  
+netmask 255.255.255.128  
+
+auto eth2  
+iface eth2 inet static  
+address 192.168.128.1  
+netmask 255.255.248.0  
+```  
+
+pada ```nano /etc/network/interfaces``` Sidoarjo  
+```
+auto lo  
+iface lo inet loopback  
+
+auto eth0  
+iface eth0 inet static  
+address 192.168.160.2  
+netmask 255.255.255.0  
+gateway 192.168.160.1  
+```  
+pada ```nano /etc/network/interfaces``` Bondowoso  
+```
+auto lo  
+iface lo inet loopback  
+
+auto eth0  
+iface eth0 inet static  
+address 192.168.136.2  
+netmask 255.255.255.128  
+gateway 192.168.136.1  
+```  
+
+pada ```nano /etc/network/interfaces``` Jember  
+```
+auto lo  
+iface lo inet loopback  
+
+auto eth0  
+iface eth0 inet static  
+address 192.168.128.3  
+netmask 255.255.248.0  
+gateway 192.168.128.1  
+```  
+
+pada ```nano /etc/network/interfaces``` Banyuwangi  
+```
+auto lo  
+iface lo inet loopback  
+
+auto eth0  
+iface eth0 inet static  
+address 192.168.128.2  
+netmask 255.255.248.0  
+gateway 192.168.128.1  
+```  
+
+pada ```nano /etc/network/interfaces``` Malang  
+```
+auto lo  
+iface lo inet loopback  
+
+auto eth0  
+iface eth0 inet static  
+address 10.151.71.49  
+netmask 255.255.255.252  
+gateway 10.151.71.50  
+```  
+pada ```nano /etc/network/interfaces``` Mojokerto  
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.151.77.54
+netmask 255.255.255.252
+gateway 10.151.77.53
+```  
+
+pada ```nano /etc/network/interfaces``` Sampang  
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 192.168.64.2
+netmask 255.255.255.0
+gateway 192.168.64.1
+```  
+
+pada ```nano /etc/network/interfaces``` Madiun  
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 192.168.16.18
+netmask 255.255.254.0
+gateway 192.168.16.17
+
+auto eth1
+iface eth1 inet static
+address 192.168.16.1
+netmask 255.255.255.240
+```  
+
+pada ```nano /etc/network/interfaces``` Bojonegoro  
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 192.168.16.2
+netmask 255.255.255.240
+gateway 192.168.16.1
+```  
+
+pada ```nano /etc/network/interfaces``` Batu  
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 192.168.32.2
+netmask 255.255.255.252
+gateway 192.168.32.1
+
+auto eth1
+iface eth1 inet static
+address 192.168.16.17
+netmask 255.255.255.252 
+
+auto eth2
+iface eth2 inet static
+address 192.168.20.1
+netmask 255.255.252.0 
+
+auto eth3
+iface eth3 inet static
+address 192.168.8.1
+netmask 255.255.255.252 
+```  
+
+pada ```nano /etc/network/interfaces``` Jombang  
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 192.168.16.19
+netmask 255.255.254.0
+gateway 192.168.16.17
+```  
+
+pada ```nano /etc/network/interfaces``` Nganjuk  
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 192.168.20.2
+netmask 255.255.252.0
+gateway 192.168.20.1
+```  
+
+pada ```nano /etc/network/interfaces``` Kediri  
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 192.168.8.2
+netmask 255.255.255.252
+gateway 192.168.8.1
+
+auto eth1
+iface eth1 inet static
+address 192.168.0.1
+netmask 255.255.255.0
+
+auto eth2
+iface eth2 inet static
+address 10.151.71.50
+netmask 255.255.255.252 
+#batu blitar malang done
+```  
+pada ```nano /etc/network/interfaces``` Blitar  
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 192.168.0.2
+netmask 255.255.255.0
+gateway 192.168.0.1
+
+auto eth1
+iface eth1 inet static
+address 192.168.1.1
+netmask 255.255.252.0
+```  
+
+pada ```nano /etc/network/interfaces``` Lumajang  
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 192.168.0.3
+netmask 255.255.252.0
+gateway 192.168.0.1
+```  
+
+pada ```nano /etc/network/interfaces``` Tulungagung  
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 192.168.1.2
+netmask 255.255.252.0
+gateway 192.168.1.1
+```  
 ---
-Kendala yang dialami: -
+Kendala yang dialami: 
+![k1](jawaban/KENDALA.JPG)  
+![k2](jawaban/KENDALA2.JPG)  
