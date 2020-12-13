@@ -435,5 +435,5 @@ gateway 192.168.1.1
 ```  
 ---
 Kendala yang dialami: 
-![k1](jawaban/KENDALA.JPG)  
-![k2](jawaban/KENDALA2.JPG)  
+![k1](jawaban/kendala.JPG)  
+![k2](jawaban/kendala2.JPG)  
